@@ -13,17 +13,46 @@
 .header{
     background-color: rgb(198, 57, 57);
     padding: 10px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+.header h1{
+    margin: 0;
+    color: white;
+}
+/* 
 .footer{
     background-color: lightgray;
     padding: 10px;
     text-align: center;
     margin-top: 20px;
-}
+} */
 
 img{
     width: 200px;
     height: 200px;
     object-fit: cover;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/* li a{
+    color: white;
+    font-weight: bold;
+} */
+.footer{
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
 }

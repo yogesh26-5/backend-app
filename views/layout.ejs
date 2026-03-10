@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
-<header class="header">
+<!-- <header class="header">
     <h1>Welcome to the store</h1>
     <div>
         <input type="text" placeholder="Search products...">
@@ -21,10 +21,23 @@
             </ul>
         </nav>
     </div>
-</header>
+</header> -->
 <body>
-    <%- body %>
+    <div>
+        <div class="header">
+            <h1>My Store</h1>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/users">Users</a></li>
+                <li><a href="/auth/login">Login</a></li>
+                <li><a href="/auth/logout">Logout</a></li>
+            </ul>
+        </div>
+        <div><%- body %></div>
+        <div class="footer">&copy 2026.All rights reserved.</div>
+    </div>
 </body>
-<footer class="footer">
-    <p>&copy; 2024 My Website</p>
+<!-- <footer class="footer">
+    <p>&copy; 2024 My Website</p> -->
 </html>
